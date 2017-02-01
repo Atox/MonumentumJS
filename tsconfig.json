@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es6",
+		"removeComments": true,
+		"preserveConstEnums": true,
+		"outDir": "js",
+		"sourceRoot": "src",
+		"baseUrl": "src",
+		"sourceMap": true
+	},
+	"include": [
+		"src/**/*"
+	],
+	"exclude": [
+		".vscode",
+		"**/*.spec.ts"
+	]
+}

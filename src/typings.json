@@ -1,0 +1,6 @@
+{
+  "globalDependencies": {
+    "nanomsg": "registry:dt/nanomsg#3.2.3+20161027015314",
+    "node": "registry:dt/node#6.0.0+20161227094133"
+  }
+}

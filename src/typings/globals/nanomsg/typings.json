@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/f7c4e50fc1053dace974f97e545fde1dc06b9a6a/nanomsg/index.d.ts",
+    "raw": "registry:dt/nanomsg#3.2.3+20161027015314",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/f7c4e50fc1053dace974f97e545fde1dc06b9a6a/nanomsg/index.d.ts"
+  }
+}
