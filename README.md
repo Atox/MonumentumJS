@@ -11,7 +11,7 @@ For example:
 
 ```
 cd js
-npm install uws nanotimer p2`
+npm install uws nanotimer p2
 ```
 
 ## Server architecture
