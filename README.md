@@ -15,7 +15,6 @@ npm install uws nanotimer p2
 ```
 
 ## Server architecture
-
 * **Service** is a WebSocket server and a game room manager. It accepts sockets, wraps them into **Peer** structure and emits events to hosted game rooms (and lobbies) for this peer. User must subclass **Service** and implement a matchmaking mechanism for players separation. **Service** will pass all socket events directly to the room assigned to it.
 
 * **Room** is a shared game session. A **Peer** will be placed inside a game room after succesful connection to server. **Room** contains all information about it's peers, assigns unique IDs to them and provides some event callbacks to the used, such as: on peer join/on peer leave/message received. Implements a fixed timestep loop that can be initiated using `setTickTime(...)` that accepts seconds. User also must implement `onTick()` and place all room's game logics inside it's body.
